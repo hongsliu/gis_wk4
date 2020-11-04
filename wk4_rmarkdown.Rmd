@@ -1,8 +1,22 @@
 ---
-title: "wk4_rmarkdown"
-output: html_document
+title: "R Notebook"
+output:
+  html_document: 
+    number_sections: yes
+    theme: yeti
+    highlight: textmate
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+editor_options: 
+  chunk_output_type: inline
+bibliography: library.bib
+
 ---
+
 ### Chart 1
+abc[@Certoma2020]
 
 ```{r}
 library(tidyverse)
@@ -75,3 +89,4 @@ ihist
 
 ```
 
+# Last section
