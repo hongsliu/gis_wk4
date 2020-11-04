@@ -1,0 +1,19 @@
+Type: Compendium
+Package: wk4_binder
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com")
+Description: test
+License: What license it uses
+Depends: 
+    plotly,
+    raster,
+    rmarkdown,
+    tidyverse,
+    weathermetrics
+Encoding: UTF-8
+LazyData: true
